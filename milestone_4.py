@@ -80,16 +80,16 @@ class Hangman:
                 break
 
 # Test the class methods
-if __name__ == "__main__":
-    word_list = ["apple", "banana", "cherries", "melon"]
-    game = Hangman(word_list)
+#if __name__ == "__main__":  
+word_list = ["apple", "banana", "cherries", "melon"]
+game = Hangman(word_list)
     
-    print("Word to guess:", game.word)
-    print("Word guessed so far:", game.word_guessed)
+print("Word to guess:", game.word)
+print("Word guessed so far:", game.word_guessed)
     
-    game.ask_for_input()  # Call the method to test the code
+game.ask_for_input()  # Call the method to test the code
 
-    print("Updated word guessed so far:", game.word_guessed)
-    print("Number of lives left:", game.num_lives)
-    print("Number of unique letters left:", game.num_letters)
-    print("List of guesses:", game.list_of_guesses)
+print("Updated word guessed so far:", game.word_guessed)
+print("Number of lives left:", game.num_lives)
+print("Number of unique letters left:", game.num_letters)
+print("List of guesses:", game.list_of_guesses)
