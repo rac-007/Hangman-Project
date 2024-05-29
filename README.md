@@ -1,2 +1,6 @@
 # Hangman-Project
-A Hangman Game in Python
+# Hangman
+Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts. This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
+
+##  Installation instructions
+No special libraries are required. THe standard Python install works fine. It is always a good idea to update operating system and other packages.
